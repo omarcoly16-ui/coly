@@ -1,0 +1,982 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..700;1,400..700&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-container-lowest":"#ffffff","on-secondary-fixed":"#0c2012","on-secondary":"#ffffff","secondary-container":"#d1e9d2","background":"#fff8f5","surface-bright":"#fff8f5","surface-dim":"#fbd2ba","on-primary-container":"#100200","error":"#ba1a1a","on-error":"#ffffff","surface-container-highest":"#ffdbc8","on-primary-fixed-variant":"#7a2f10","on-surface-variant":"#55433c","surface-container-high":"#ffe3d3","on-secondary-container":"#546a58","primary-container":"#b85d3b","secondary":"#4e6452","on-error-container":"#93000a","on-tertiary":"#ffffff","on-tertiary-fixed":"#231a0a","primary-fixed":"#ffdbcf","primary-fixed-dim":"#ffb59b","on-primary-fixed":"#380d00","tertiary-fixed":"#f3e0c5","surface-container":"#ffeadf","tertiary":"#6a5c47","on-tertiary-fixed-variant":"#514531","secondary-fixed":"#d1e9d2","surface-container-low":"#fff1ea","on-surface":"#2b1608","secondary-fixed-dim":"#b5cdb7","surface-tint":"#994626","inverse-on-surface":"#ffede5","outline":"#88726b","error-container":"#ffdad6","tertiary-container":"#83755f","inverse-surface":"#432b1b","inverse-primary":"#ffb59b","on-tertiary-container":"#090400","surface":"#fff8f5","tertiary-fixed-dim":"#d6c4aa","primary":"#994525","on-background":"#2b1608","on-primary":"#ffffff","outline-variant":"#dbc1b9","surface-variant":"#ffdbc8","on-secondary-fixed-variant":"#374c3b"},borderRadius:{DEFAULT:"0.125rem",lg:"0.25rem",xl:"0.5rem",full:"0.75rem"},spacing:{"gutter-mobile":"1rem","space-lg":"2.5rem","space-md":"1.5rem","margin-mobile":"1.25rem",gutter:"1.5rem","space-xs":"0.375rem",margin:"4rem","space-xl":"4rem","space-sm":"0.75rem","margin-tablet":"2.5rem"},fontFamily:{"headline-lg-mobile":["EB Garamond"],eyebrow:["Plus Jakarta Sans"],"headline-sm":["EB Garamond"],"body-md":["Plus Jakarta Sans"],"body-sm":["Plus Jakarta Sans"],"headline-lg":["EB Garamond"],"headline-md":["EB Garamond"],"display-mobile":["EB Garamond"],"label-md":["Plus Jakarta Sans"],display:["EB Garamond"],"label-sm":["Plus Jakarta Sans"],"body-lg":["Plus Jakarta Sans"]},fontSize:{"headline-lg-mobile":["30px",{lineHeight:"36px",letterSpacing:"0em",fontWeight:"600"}],eyebrow:["11px",{lineHeight:"16px",letterSpacing:"0.2em",fontWeight:"600"}],"headline-sm":["24px",{lineHeight:"30px",letterSpacing:"0.01em",fontWeight:"400"}],"body-md":["16px",{lineHeight:"26.4px",letterSpacing:"0.01em",fontWeight:"400"}],"body-sm":["14px",{lineHeight:"23px",letterSpacing:"0.015em",fontWeight:"400"}],"headline-lg":["42px",{lineHeight:"48px",letterSpacing:"0em",fontWeight:"600"}],"headline-md":["32px",{lineHeight:"38px",letterSpacing:"0.01em",fontWeight:"400"}],"display-mobile":["38px",{lineHeight:"44px",letterSpacing:"-0.01em",fontWeight:"600"}],"label-md":["13px",{lineHeight:"18px",letterSpacing:"0.08em",fontWeight:"500"}],display:["56px",{lineHeight:"64px",letterSpacing:"-0.01em",fontWeight:"600"}],"label-sm":["11px",{lineHeight:"16px",letterSpacing:"0.05em",fontWeight:"500"}],"body-lg":["18px",{lineHeight:"30px",letterSpacing:"0.01em",fontWeight:"300"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-surface-container-highest selection:text-primary"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-md border-b border-outline-variant/60"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-sm"><img alt="Raíz y Alas Lodge Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/ALJJyrBA6Wkg7paWz1rmDohofUpS4fTnUebuJi41z271k7VBhvsotXCQedLpqg-FkL12-BTI46C0JHNvm0jHZANZBjDwtFt-NuDPlARQk8OS7acors5y8U2FAn33C9_x4Nz1NsM3hzyUR90a1HO4EgDKzAbA9cvdw7LPTr70oJhG_pYns7n-5VkGlq3Hm7ex3_Rypl82xXsCOrsmYuoMgX_h3c1Rcy4bLNOiJ7v9bTAtmoU"><a class="flex flex-col" data-path="el-lodge" href="#"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Raíz y Alas</span><span class="font-eyebrow text-eyebrow uppercase text-tertiary tracking-[0.2em] leading-none mt-1">Abéné • Casamance</span></a></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-primary border-b border-primary font-semibold"><a aria-current="page" class="uppercase tracking-[0.2em] py-1 transition-colors text-primary border-b border-primary font-semibold cursor-pointer" data-open-suites="" href="javascript:void(0)">El Lodge</a><a class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-on-surface-variant hover:text-on-surface py-1 transition-colors" data-path="experiencias" href="#bolongs">Experiencias</a><a class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-on-surface-variant hover:text-on-surface py-1 transition-colors" data-path="cultura" href="#cultura">Cultura</a><a class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-on-surface-variant hover:text-on-surface py-1 transition-colors" data-path="contacto" href="#">Contacto</a></nav><div class="flex items-center gap-space-md"><div class="hidden sm:flex items-center gap-space-xs font-eyebrow text-eyebrow text-tertiary"><a class="text-on-surface hover:text-primary transition-colors" href="#">ES</a><span class="text-outline-variant">•</span><a class="hover:text-primary transition-colors" href="#">EN</a><span class="text-outline-variant">•</span><a class="hover:text-primary transition-colors" href="#">FR</a></div><a class="bg-primary-container text-surface-container-lowest font-label-md text-label-md uppercase tracking-[0.1em] px-7 py-3 rounded-lg hover:bg-primary transition-colors flex items-center justify-center shadow-[0_12px_24px_-10px_rgba(153,69,37,0.3)]" data-path="reservas" href="#reserva">Reservar Ahora</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]"><div class="flex flex-col w-full text-on-surface">
+<!-- HERO SECTION -->
+<section class="relative w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin pt-space-lg md:pt-space-xl pb-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-y-space-lg gap-x-gutter items-center">
+<!-- Left Editorial Column -->
+<div class="lg:col-span-7 flex flex-col items-start pr-0 lg:pr-space-md z-10">
+<div class="flex items-center gap-space-xs mb-space-sm bg-surface-container-high/60 px-3 py-1.5 rounded-lg border border-outline-variant/40">
+<span class="w-1.5 h-1.5 bg-primary rounded-full"></span>
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary">Abéné • Casamance, Senegal</span>
+</div>
+<h1 class="font-display text-display leading-[1.08] text-on-surface mb-space-md tracking-tight">
+          Lujo slow en Casamance: naturaleza, cultura y el sur de Senegal.
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-space-lg font-light leading-relaxed">
+          Un santuario ecológico íntimo entre manglares vírgenes y playas del Atlántico. Desconecta del ritmo artificial para reconectar con lo esencial: tiempo, hospitalidad diola y silencio.
+        </p>
+<!-- Dual CTA -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm w-full sm:w-auto mb-space-lg">
+<a class="bg-primary-container text-surface-container-lowest font-label-md text-label-md uppercase tracking-[0.1em] px-8 py-4 rounded-lg hover:bg-primary transition-all duration-300 text-center shadow-[0_16px_32px_-12px_rgba(153,69,37,0.35)] flex items-center justify-center gap-2" href="#reserva">
+<span>Reservar Estancia</span>
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</a>
+<a class="bg-surface-container-lowest/80 text-on-surface border border-outline-variant/80 font-label-md text-label-md uppercase tracking-[0.1em] px-7 py-4 rounded-lg hover:bg-surface-container hover:border-tertiary transition-all duration-300 text-center flex items-center justify-center gap-2" href="#pilares">
+<span>Descubrir la Experiencia</span>
+<span class="material-symbols-outlined text-[18px] text-primary">arrow_forward</span>
+</a>
+</div>
+<!-- Badges Stack -->
+<div class="flex flex-wrap items-center gap-space-sm pt-space-sm border-t border-outline-variant/40 w-full">
+<button class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low text-secondary font-label-sm text-label-sm border border-secondary/20 hover:border-primary hover:text-primary transition-colors cursor-pointer group" data-open-suites="" type="button">
+<span class="material-symbols-outlined text-[16px]">bed</span>
+<span>Boutique Eco-Lodge • Solo 8 Suites Privadas</span>
+<span class="material-symbols-outlined text-[14px] text-primary group-hover:translate-x-0.5 transition-transform">open_in_new</span>
+</button>
+<div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-surface-container-low text-secondary font-label-sm text-label-sm border border-secondary/20">
+<span class="material-symbols-outlined text-[16px]">solar_power</span>
+<span>Energía 100% Solar &amp; Km 0</span>
+</div>
+</div>
+</div>
+<!-- Right Asymmetric Image Composition -->
+<div class="lg:col-span-5 relative flex flex-col justify-center">
+<!-- Main Architecture Image Card -->
+<div class="relative bg-surface-container-low p-2 rounded-xl shadow-[0_20px_40px_-15px_rgba(56,33,18,0.12)] border border-outline-variant/50">
+<div class="overflow-hidden rounded-lg relative aspect-[4/5] w-full">
+<img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" data-alt="Editorial photograph of an eco-luxury thatched roof lodge in Abéné Casamance nestled under towering palm trees and sacred baobabs during the warm golden hour light with gentle shadows, natural adobe walls, and raw linen draped verandas reflecting earthy terracotta and sand tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeKRnom5FTBxBT3VWdkFPWmzxrYINOsAiwBjSQjUbd9BLlRCEQ3D1awbj-X_VNXwGBDF8sL3irka86W8XxjLYhaiLimp5t-hxmhBgprwBCNdAw0YoE3wk_pOKinkzHa6piqL9E0IVjjVP7N8VcEn_u0eRyxCIKIe635sNxFOwmQLJyiwKLHFKb8108q9QHieRtrSaSAu2QZyJaOu8TVNaeScIfZYXBnkaN-0ZxLsU">
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/60 via-transparent to-transparent"></div>
+<div class="absolute bottom-4 left-4 right-4 text-surface-container-lowest">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-surface-container-high block mb-1">Abéné Sanctuary</span>
+<p class="font-headline-sm text-headline-sm italic leading-tight">Arquitectura viva con barro, paja y brisa atlántica</p>
+</div>
+</div>
+</div>
+<!-- Floating Offset Landscape Vignette -->
+<div class="hidden sm:block absolute -bottom-10 -left-12 w-64 bg-surface-container-lowest p-2 rounded-xl shadow-[0_24px_48px_-12px_rgba(56,33,18,0.18)] border border-outline-variant/60 z-20">
+<div class="overflow-hidden rounded-lg aspect-[4/3] w-full relative">
+<img class="w-full h-full object-cover" data-alt="Close up of a tranquil stone pool in an eco lodge in southern Senegal reflecting tropical greenery and warm evening sky with handcrafted wooden lounge chairs and textured sand pathways." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCPE7gcT7K2QolGEEB4d03q8WNaQMb8zpxVzhazNvpqGkh5kB8INBaIKkMiEh9hEAag7pPGpml8MIbOxqWnajTyeRi1rgqikFaKw6LsTXs4E5K6XljJQwOAjiIaXp2pgXihESqeycfK6Yl2etj0jH8dKnfNlD5jDaO5-k78gepJKZXg0zntNkII-FNV0zCdY3kwCCPugk6xeOTkjDQ4V2idCPxKWpswj_JuJzBETA">
+<div class="absolute top-2 right-2 bg-surface-container-lowest/90 px-2 py-0.5 rounded text-[10px] font-eyebrow tracking-widest text-primary uppercase">
+              Piscina Natural
+            </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ARTISAN DIVIDER WITH DIAMOND -->
+<div class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-6">
+<div class="flex items-center justify-center gap-4 text-outline-variant">
+<span class="h-[1px] flex-1 bg-outline-variant/60"></span>
+<span class="inline-block w-2.5 h-2.5 rotate-45 border border-tertiary bg-surface-container"></span>
+<span class="h-[1px] flex-1 bg-outline-variant/60"></span>
+</div>
+</div>
+<!-- SECCIÓN PROBLEMA / SOLUCIÓN -->
+<section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl">
+<div class="flex flex-col items-center text-center mb-space-lg">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary mb-2">Una manera distinta de habitar África</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface max-w-2xl">El dilema del viajero contemporáneo frente a la calma consciente</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-stretch mb-space-lg">
+<!-- Columna Izquierda: Turismo Convencional -->
+<div class="md:col-span-5 bg-surface-container-low/70 p-space-md lg:p-space-lg rounded-xl border border-outline-variant/40 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 text-outline mb-space-sm">
+<span class="material-symbols-outlined text-[20px]">schedule</span>
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em]">El turismo convencional</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface-variant mb-space-xs font-normal">
+            Itinerarios apresurados y desconexión real
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant/90 leading-relaxed font-light">
+            Itinerarios acelerados, hoteles impersonales y una barrera invisible con la realidad local. Viajes donde el destino se convierte en una postal consumida con prisa, sacrificando el descanso verdadero por coleccionar estampas sin profundidad.
+          </p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-outline-variant/30 flex items-center gap-2 text-outline text-body-sm font-body-sm">
+<span class="material-symbols-outlined text-[18px]">close</span>
+<span>Inercia turística estandarizada</span>
+</div>
+</div>
+<!-- Columna Derecha: Raíz y Alas Sanctuary -->
+<div class="md:col-span-7 bg-surface-container p-space-md lg:p-space-lg rounded-xl border border-outline-variant/70 flex flex-col justify-between shadow-[0_16px_36px_-12px_rgba(56,33,18,0.06)] relative overflow-hidden">
+<div class="absolute -right-10 -bottom-10 opacity-5 pointer-events-none">
+<span class="material-symbols-outlined text-[240px] text-primary">spa</span>
+</div>
+<div>
+<div class="flex items-center gap-2 text-primary mb-space-sm">
+<span class="material-symbols-outlined text-[20px]">nest_eco_leaf</span>
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em]">La experiencia Raíz y Alas</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-space-xs">
+            Lujo no es ostentación, es sosiego y verdad
+          </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-sm">
+            Aquí cada día fluye sin reloj: despertar con el canto de aves tropicales, navegar los bolongs en piragua tradicional y sentir la calidez humana de Casamance con la tranquilidad de un refugio impecable, seguro y sostenible.
+          </p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-xs text-body-sm font-body-sm text-secondary">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-primary">check_circle</span>
+<span>Integración total con la aldea</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-primary">check_circle</span>
+<span>Privacidad sin multitudes</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-primary">check_circle</span>
+<span>Ritmos biológicos respetados</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-primary">check_circle</span>
+<span>Impacto positivo directo</span>
+</div>
+</div>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-outline-variant/50 flex items-center justify-between">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.15em] text-tertiary">Hospitalidad consciente</span>
+<span class="font-label-md text-label-md text-primary font-semibold">Casamance del Sur • Senegal</span>
+</div>
+</div>
+</div>
+<!-- Editorial Central Quote -->
+<div class="relative max-w-3xl mx-auto my-space-md px-space-md py-space-sm text-center">
+<div class="w-12 h-[1px] bg-tertiary mx-auto mb-4"></div>
+<blockquote class="font-headline-md text-headline-md italic text-on-surface leading-snug">
+        “Viajar despacio para echar raíces, abrir los ojos para desplegar alas.”
+      </blockquote>
+<div class="w-12 h-[1px] bg-tertiary mx-auto mt-4"></div>
+</div>
+</section>
+<!-- ARTISAN DIVIDER WITH DIAMOND -->
+<div class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-4">
+<div class="flex items-center justify-center gap-4 text-outline-variant">
+<span class="h-[1px] flex-1 bg-outline-variant/60"></span>
+<span class="inline-block w-2.5 h-2.5 rotate-45 border border-tertiary bg-surface-container"></span>
+<span class="h-[1px] flex-1 bg-outline-variant/60"></span>
+</div>
+</div>
+<!-- SECCIÓN 3 BENEFICIOS PRINCIPALES (LOS TRES PILARES) -->
+<section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl" id="pilares">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg gap-space-sm">
+<div>
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary block mb-2">Nuestra Promesa</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Tres dimensiones de una estancia irrepetible</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        Diseñado para quienes buscan descanso regenerativo sin renunciar a la autenticidad cultural ni a la sofisticación estética.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Card 01 -->
+<div class="bg-surface-container-low rounded-xl border border-outline-variant/60 overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(56,33,18,0.1)]">
+<div>
+<div class="h-60 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="Eco-luxury bedroom suite interior inside adobe and bamboo walls, dressed with pure unbleached linen bed sheets, mosquito nets, gentle morning sunlight filtering through wooden louvered shutters in Casamance Senegal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1AlDYR0cyKJJ9mUC6mhabktPfga8-EBiERF_3EmOtKX_jX9JQCgP6o-AiHpQqHiCuWgXXwXFbwsHTVR7QJDP5z-5uA9hS1lhcPKBgTtjpMfOdHRgRs-_AXnyY_H0KX8XS60hVhnsliE8jGfNFG2rTg8RxmdCwfa9aaHlNRXNfwbhBG5UhDH6_8G3yLLBlelLdGExLIndkWu0UZ7wUoogEynP9fcOVUOsO1j721Ao">
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 px-3 py-1 rounded text-primary font-eyebrow text-eyebrow tracking-widest uppercase">
+              Pilar 01
+            </div>
+</div>
+<div class="p-space-md">
+<span class="font-headline-lg text-headline-lg text-outline-variant/70 leading-none block mb-2">01</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">
+              Alojamiento Eco-Luxury &amp; Calma Absoluta
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-sm">
+              Suites bioclimáticas construidas con adobe, madera local y techos de paja tradicionales. Piscina de piedra natural rodeada de vegetación exuberante y acceso directo a playas vírgenes sin huellas.
+            </p>
+<button class="inline-flex items-center gap-2 text-primary font-label-md text-label-md tracking-wider uppercase py-2 px-3.5 rounded-lg border border-primary/30 bg-surface-container-lowest/70 hover:bg-primary-container hover:text-surface-container-lowest hover:border-primary transition-all duration-200 group w-full justify-between cursor-pointer" data-open-suites="" type="button">
+<span class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px]">bed</span>
+<span>Ver las 8 Suites y Tarifas</span>
+</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+<div class="px-space-md pb-space-md pt-space-xs border-t border-outline-variant/40 flex items-center justify-between text-tertiary">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Aislamiento acústico natural</span>
+<span class="material-symbols-outlined text-[20px] text-primary">spa</span>
+</div>
+</div>
+<!-- Card 02 -->
+<div class="bg-surface-container-low rounded-xl border border-outline-variant/60 overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(56,33,18,0.1)]">
+<div>
+<div class="h-60 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="Traditional wooden pirogue canoe floating slowly through the mangrove channels of Casamance river with local guide navigating under golden late afternoon light, rich reflections in the water and lush aquatic trees." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBof-rX1aDp7zuUtQ-SyQuJbSe6ayCWx4_yEZRDuRmh__g5NBXMEwDXAd3q_yu9G3GKmU11dRT1Yf3hdPU7-6FMrU8ufPpHXGJzxcO09xJHxMVjrcsbHA-qu7YhzmNd28DCSdUG-BActIYzT_xq3ajHZwbWJtl_akw0E3Ta27TGEylQVGmZevSDiPWMO7gUhn1GWUFNaPjZ_QFHZ0qRQ3m8dKZFBMjvuhAw_gpvcZo">
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 px-3 py-1 rounded text-primary font-eyebrow text-eyebrow tracking-widest uppercase">
+              Pilar 02
+            </div>
+</div>
+<div class="p-space-md">
+<span class="font-headline-lg text-headline-lg text-outline-variant/70 leading-none block mb-2">02</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">
+              Inmersión Cultural Guiada por Locales
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Conexión genuina y respetuosa con la comunidad diola de Abéné. Talleres de percusión y danza djembe, botánica tradicional en bosques sagrados y excursiones personalizadas en piragua por el río Casamance.
+            </p>
+</div>
+</div>
+<div class="px-space-md pb-space-md pt-space-xs border-t border-outline-variant/40 flex items-center justify-between text-tertiary">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Guiado ético y comunitario</span>
+<span class="material-symbols-outlined text-[20px] text-primary">groups</span>
+</div>
+</div>
+<!-- Card 03 -->
+<div class="bg-surface-container-low rounded-xl border border-outline-variant/60 overflow-hidden flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_-15px_rgba(56,33,18,0.1)]">
+<div>
+<div class="h-60 w-full overflow-hidden relative">
+<img class="w-full h-full object-cover" data-alt="Artisan dinner spread under an open thatch veranda at dusk with candles, fresh seasonal fish and tropical fruits arranged on raw clay plates, warm wooden textures, lanterns glowing softly in Senegal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV4qIDzeC1vvCc6QYLiiLGcKtM-oTDfEjyCkPPkzYPy3mvUX5BCt_TKoFzDxAZnJWYjzUlbJqKhlZlm85SfKriPJ70oXFwPo7yoNO8Lv3Tbm2F-lXMnODn-yJoMGOLhPnKk8KZPJto8yDqcU1_1qZRqBpEvT-UZzB_UbV72R-RXClcDHTb6hkD2gwun-fsUKO8Gb3pHkfhSWPOwwzZJuyULjg3T7cHVb6x2tfV6Xs">
+<div class="absolute top-3 left-3 bg-surface-container-lowest/90 px-3 py-1 rounded text-primary font-eyebrow text-eyebrow tracking-widest uppercase">
+              Pilar 03
+            </div>
+</div>
+<div class="p-space-md">
+<span class="font-headline-lg text-headline-lg text-outline-variant/70 leading-none block mb-2">03</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">
+              Gastronomía de Temporada &amp; Huerto Km 0
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              Cocina de raíz liderada por cocineras de la región: pescado fresco del día de Kafountine, frutas tropicales recolectadas en el huerto orgánico del lodge, especias autóctonas y cenas bajo las estrellas.
+            </p>
+</div>
+</div>
+<div class="px-space-md pb-space-md pt-space-xs border-t border-outline-variant/40 flex items-center justify-between text-tertiary">
+<span class="font-label-sm text-label-sm uppercase tracking-wider">Pesca artesanal &amp; huerta viva</span>
+<span class="material-symbols-outlined text-[20px] text-primary">restaurant</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ARTISAN DIVIDER WITH DIAMOND -->
+<div class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-4"><div class="flex items-center justify-center gap-4 text-outline-variant"><span class="h-[1px] flex-1 bg-outline-variant/60"></span><span class="inline-block w-2.5 h-2.5 rotate-45 border border-tertiary bg-surface-container"></span><span class="h-[1px] flex-1 bg-outline-variant/60"></span></div></div><section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl" id="gastronomia"><div class="grid grid-cols-1 lg:grid-cols-12 gap-y-space-lg gap-x-gutter items-center"><div class="lg:col-span-6 relative flex flex-col justify-center"><div class="relative bg-surface-container-low p-2 rounded-xl shadow-[0_20px_40px_-15px_rgba(56,33,18,0.12)] border border-outline-variant/50"><div class="overflow-hidden rounded-lg relative aspect-[4/3] w-full"><img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" alt="Editorial culinary photo of Senegalese Casamance food, Caldo fish soup or Tiebou Dienn with fresh local fish, cassava, fresh garden vegetables, served in warm terracotta and handmade ceramic bowls, golden warm light, wooden table, linen napkin, slow food eco-lodge aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADf-DFde924YHGQzyk1gIMmQGZPixr5Y9TDVbAnFKwiqIj5JCH_KBr2NDyr4Ajk4XHxC9mkiO01XGAdQ-d6J4O0vBT_BWDuYz3editfYV4jj38t88Q_X-laysMmRJRtV40r_ZEoEdenZQYtsp0Cb1T8cEhpoFAI6bNZ--RPjKBJTIZ-c95n0bwS34eAhsE_fKVmM3GLq2b33y47agmXUUS-JWAdPNySrL8jVNIYek"><div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div><div class="absolute top-3 left-3 bg-surface-container-lowest/90 px-3 py-1 rounded text-primary font-eyebrow text-eyebrow tracking-widest uppercase">Mesa Abéné • Fuego Lento</div><div class="absolute bottom-4 left-4 right-4 text-surface-container-lowest"><p class="font-headline-sm text-headline-sm italic leading-snug">“La cocina no es velocidad: es respeto por la marea, la tierra de Casamance y el tiempo justo.”</p></div></div></div><div class="mt-3 bg-surface-container-lowest/90 p-4 rounded-xl border border-outline-variant/40 shadow-sm"><blockquote class="font-body-md text-body-md text-on-surface italic">“Áquí no cocinamos con prisas: respetamos el temperamento de la marea, la madurez del huerto y la leña seca de mango.”</blockquote><div class="mt-2 flex items-center justify-between"><span class="font-label-md text-label-md text-primary font-semibold">— Awa Badji</span><span class="font-body-sm text-body-sm text-tertiary">Cocinera y matriarca culinaria de Abéné</span></div></div></div><div class="lg:col-span-6 flex flex-col items-start lg:pl-space-md"><div class="flex items-center gap-space-xs mb-space-sm bg-surface-container-high/60 px-3 py-1.5 rounded-lg border border-outline-variant/40"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span><span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary">Slow Food • Huerto &amp; Pesca Artesanal</span></div><h2 class="font-headline-lg text-headline-lg text-on-surface mb-space-xs leading-tight">Gastronomía de Raíz: El Sabor Sagrado de Casamance</h2><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md font-light">Cada plato que servimos en Raíz y Alas celebra los ciclos naturales del sur de Senegal. El pescado llega al amanecer en los cayucos de madera de Kafountine, mientras las verduras, hierbas y tubérculos brotan sin pesticidas en nuestros huertos permaculturales regados con agua pura de manantial.</p><div class="flex flex-col gap-3.5 w-full"><div class="p-3.5 rounded-lg bg-surface-container-low border border-outline-variant/50"><div class="flex items-center gap-2 mb-1 text-primary"><span class="material-symbols-outlined text-[18px]">set_meal</span><h4 class="font-headline-sm text-[18px] text-on-surface font-medium">Caldo de Pescado Fresco del Atlántico</h4></div><p class="font-body-sm text-body-sm text-on-surface-variant">Sopa ceremonial marinera al limón de Casamance con yuca tierna, okra, berenjena africana y hierbas silvestres en cuencos de terracota local.</p></div><div class="p-3.5 rounded-lg bg-surface-container-low border border-outline-variant/50"><div class="flex items-center gap-2 mb-1 text-primary"><span class="material-symbols-outlined text-[18px]">rice_bowl</span><h4 class="font-headline-sm text-[18px] text-on-surface font-medium">Tiebou Dienn Tradicional de los Bolongs</h4></div><p class="font-body-sm text-body-sm text-on-surface-variant">El emblemático arroz senegalés con carpa roja o dorada de estuario, especias caseras, pulpa de tamarindo y verduras asadas a fuego lento.</p></div><div class="p-3.5 rounded-lg bg-surface-container-low border border-outline-variant/50"><div class="flex items-center gap-2 mb-1 text-primary"><span class="material-symbols-outlined text-[18px]">wine_bar</span><h4 class="font-headline-sm text-[18px] text-on-surface font-medium">Vino de Palma Fresco, Bissap &amp; Bouye</h4></div><p class="font-body-sm text-body-sm text-on-surface-variant">Cosecha matinal de bounouk (savia de palma viva), infusión fresca de hibisco silvestre y néctar revitalizante del fruto del baobab milenario.</p></div></div></div></div></section><div class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-4"><div class="flex items-center justify-center gap-4 text-outline-variant"><span class="h-[1px] flex-1 bg-outline-variant/60"></span><span class="inline-block w-2.5 h-2.5 rotate-45 border border-tertiary bg-surface-container"></span><span class="h-[1px] flex-1 bg-outline-variant/60"></span></div></div><section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl" id="cultura"><div class="grid grid-cols-1 lg:grid-cols-12 gap-y-space-lg gap-x-gutter items-center"><div class="lg:col-span-6 flex flex-col items-start order-2 lg:order-1 pr-0 lg:pr-space-md"><div class="flex items-center gap-space-xs mb-space-sm bg-surface-container-high/60 px-3 py-1.5 rounded-lg border border-outline-variant/40"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span><span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary">Herencia Ancestral • Comunidad Diola</span></div><h2 class="font-headline-lg text-headline-lg text-on-surface mb-space-xs leading-tight">Cultura Viva Diola: El Alma Secreta del Bosque Sagrado</h2><p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md font-light">Para el pueblo Diola, la naturaleza no es un recurso a explotar, sino una entidad viva y sagrada. Bajo las inmensas raíces de las ceibas centenarias (árboles de algodón sagrado) y entre las palmeras de vino, se preservan rituales milenarios de reciprocidad, mústica comunitaria y respeto espiritual absoluto por el ecosistema.</p><div class="flex flex-col gap-3.5 w-full mb-space-md"><div class="p-3.5 rounded-lg bg-surface-container-low border border-outline-variant/50"><div class="flex items-center gap-2 mb-1 text-primary"><span class="material-symbols-outlined text-[18px]">forest</span><h4 class="font-headline-sm text-[18px] text-on-surface font-medium">Caminata Botánica con Ancianos Diola</h4></div><p class="font-body-sm text-body-sm text-on-surface-variant">Recorrido de escucha por los bosques de Abéné guiado por ancianos sabios que revelan usos medicinales de raíces, cortezas sagradas y hojas autóctonas.</p></div><div class="p-3.5 rounded-lg bg-surface-container-low border border-outline-variant/50"><div class="flex items-center gap-2 mb-1 text-primary"><span class="material-symbols-outlined text-[18px]">music_note</span><h4 class="font-headline-sm text-[18px] text-on-surface font-medium">Taller de Percusión &amp; Danzas Tradicionales</h4></div><p class="font-body-sm text-body-sm text-on-surface-variant">Iniciación al djembe y ritmos polirrítmicos comunitarios de celebración diola impartidos con humildad y alegría por los maestros mósicos de la aldea.</p></div><div class="p-3.5 rounded-lg bg-surface-container-low border border-outline-variant/50"><div class="flex items-center gap-2 mb-1 text-primary"><span class="material-symbols-outlined text-[18px]">handshake</span><h4 class="font-headline-sm text-[18px] text-on-surface font-medium">Encuentros Comunitarios &amp; Artesanías en Fibras</h4></div><p class="font-body-sm text-body-sm text-on-surface-variant">Acompañamiento ético al tejido de cestas con hojas de palma, recolección de savia de palma dulce (Bounouk) y charla honesta en el patio de la comunidad.</p></div></div><div class="flex items-center gap-2 text-secondary font-label-sm text-label-sm border-t border-outline-variant/40 pt-space-xs w-full"><span class="material-symbols-outlined text-[18px] text-primary">verified</span><span>El 100% de la compensación por las experiencias va directamente a los anfitriones y al fondo comunal de Abéné.</span></div></div><div class="lg:col-span-6 relative flex flex-col justify-center order-1 lg:order-2"><div class="relative bg-surface-container-low p-2 rounded-xl shadow-[0_20px_40px_-15px_rgba(56,33,18,0.12)] border border-outline-variant/50"><div class="overflow-hidden rounded-lg relative aspect-[4/3] w-full"><img class="w-full h-full object-cover transition-transform duration-700 hover:scale-105" alt="Authentic cultural portrait of Diola people in Casamance Senegal, palm wine tapping ritual, local artisan weaving natural fibers or performing traditional djembe under sacred fromager ceiba tree, warm sunlight, respectful documentary photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDLWVWro_XzYAO6MiJMDuvH3SgqXbuh6Wup9TTk9JivTMbHr_QAggZaD3rxIABUFW4ga90YODBm0CdW9fIiO2WWYCggOiohwTAvtTd3Rmx1QLVT1PqKAUaGTNYEdk8Mqu0Fv2lE8HNxop7qyII7iP1lj2ahnYwSYWARPOlv829Yy_vhZ1ZTMmokoM0uAqtHA9tIvpyNaBHj1-tLQ9Ts5qHK4YueNEuu0lePyJ8iHEQ"><div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent"></div><div class="absolute top-3 left-3 bg-surface-container-lowest/90 px-3 py-1 rounded text-primary font-eyebrow text-eyebrow tracking-widest uppercase">Ritual &amp; Identidad</div><div class="absolute bottom-4 left-4 right-4 text-surface-container-lowest"><span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary-fixed mb-1 block">Tradición Viva en Abéné</span><p class="font-headline-sm text-headline-sm leading-snug">La ceiba sagrada: punto de encuentro, mústica comunitaria y canto compartido</p></div></div></div></div></div></section><div class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-4"><div class="flex items-center justify-center gap-4 text-outline-variant"><span class="h-[1px] flex-1 bg-outline-variant/60"></span><span class="inline-block w-2.5 h-2.5 rotate-45 border border-tertiary bg-surface-container"></span><span class="h-[1px] flex-1 bg-outline-variant/60"></span></div></div>
+<!-- SECCIÓN PRUEBA SOCIAL & GALERÍA EDITORIAL -->
+<section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl">
+<div class="flex flex-col items-start mb-space-lg">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary mb-2">El Entorno &amp; La Comunidad</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Paisajes vivos, ritmos que sanan</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-2">
+        Una selección visual de las experiencias que aguardan en el estuario de Abéné y las puertas fluviales hacia Gambia.
+      </p>
+</div>
+<!-- Editorial Asymmetric Mosaic Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter mb-space-xl">
+<!-- Item 1: Bolong (Large) -->
+<div class="md:col-span-8 bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant/60 relative group min-h-[360px]">
+<div class="w-full h-full min-h-[360px]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Wide serene panoramic view of the Bolong waterway in Abene Casamance at sunset with kingfishers and herons flying over untouched mangrove forests, calm water mirroring pink and ochre sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9ky6wQRka3zNpr7CPFnaJWT_sycstW6IaFGM_mO9B5FEmapaSyWIdcsjn_cIe3Jcha2AI7BQSKqIKO08S2WKqcmK3wVhu4aD8wXHS7pQRyVWset7oMcdNL5unv4VBmVh0QiG-ix-uHFoOQvvmnY-NyS8ndItpSGDuGM_2dO3_APzbl8hW0VVAt8mBFgkdiWiQ9olZL37THK4EYNQ26_ox0kXlx4aHlQ4NBDkTEWE">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-space-md text-surface-container-lowest">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary-fixed mb-1">Rutas en Piragua</span>
+<h3 class="font-headline-md text-headline-md">El Bolong de Abéné</h3>
+<p class="font-body-sm text-body-sm text-surface-container-low max-w-lg mt-1">
+            Manglares ancestrales, laberintos de agua y avistamiento de más de 80 especies de aves marinas al atardecer.
+          </p>
+</div>
+</div>
+<!-- Item 2: Suites Privadas -->
+<div class="md:col-span-4 bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant/60 relative group min-h-[360px]">
+<div class="w-full h-full min-h-[360px]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Detail of an eco-lodge thatched private veranda overlooking lush palm gardens with a woven cane hammock and ceramic tea set in Casamance Senegal." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqbAKkoF7fKanwNGLly-kx1UM65ZoSzZzpyQUy718M3bd9aVp9oY8O7NvH_93O6l-YWGWQkG31b2nrONpRnOjJtOkcbKc1ASp4goxazKyxSiLrzL_iyIXik_Bbm4_XUJOSBg4gPGuYEr66o73nNXbjhNPHgOo7LvyBUMs6cu-AtHPbui7WKqGGaEIUbsKyyeqSstPWSKJQadt4BA6tLubgYBDg4W8mOFdGOA_FUu8">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-space-md text-surface-container-lowest">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary-fixed mb-1">Privacidad Silenciosa</span>
+<h3 class="font-headline-sm text-headline-sm">Suites de Paja y Madera Viva</h3>
+<p class="font-body-sm text-body-sm text-surface-container-low mt-1">
+            Confort boutique de bajo impacto y brisa marina constante.
+          </p>
+</div>
+</div>
+<!-- Item 3: Excursiones Gambia -->
+<div class="md:col-span-4 bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant/60 relative group min-h-[320px]">
+<div class="w-full h-full min-h-[320px]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Historic ruins and large baobab trees along the Gambia River bank near Kunta Kinteh Island, dramatic historical atmosphere in warm daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVAj5aovSTgdWEHBkatsceVLvyoR-sbANBiRJKPtJ5H58mBlIMv5k7edR0CHauQaum3Tfsz8c_xdbNCx_BP7GszR_e7IUBmLu5NaYspzbF8MAKZVQPhzizjk2sT1sRXKGPQ9CipFNABhtcx9cb2wWc5VJdZLUCV5zn4n8R3Zy82gHYpdGYyLbIO9_i31bag2okDiyg4wm7b521pMcLpqeLYanKJXZafHYc1IAk1Pw">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-space-md text-surface-container-lowest">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary-fixed mb-1">Frontera Fluvial</span>
+<h3 class="font-headline-sm text-headline-sm">Excursiones a Gambia</h3>
+<p class="font-body-sm text-body-sm text-surface-container-low mt-1">
+            Kunta Kinteh Island, el delta del río y los vibrantes mercados de Banjul.
+          </p>
+</div>
+</div>
+<!-- Item 4: Fuego Nocturno y Mesa Común -->
+<div class="md:col-span-8 bg-surface-container-low rounded-xl overflow-hidden border border-outline-variant/60 relative group min-h-[320px]">
+<div class="w-full h-full min-h-[320px]">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Evening campfire gathering at an African eco-lodge under deep indigo night sky full of stars, travelers and local hosts talking and sharing stories warmly." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBwZLIIGcEZZsRsWdEv6tyS6G1JQfVxl29bFQlIK5MIRhXnbo-bxfMoYpvaqbxG9Jgbro26vCMM33bxrwJU6A1FXz-TNXbdNJX5sGT4lIn33-jFHFxJB4GaPzCzPVa6RWrB3PDCxhMj3KAFioPTgYY3I1twTGgTTsVeJsKAU8sMz7QwpFCPwYi6Zgl_wnuKCuTrRRx7X7DK-a1sApnO2hYEuskofTRE9pRpX219jVU">
+</div>
+<div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-space-md text-surface-container-lowest">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary-fixed mb-1">Encuentro Nocturno</span>
+<h3 class="font-headline-md text-headline-md">La Mesa Común y Relatos al Fuego</h3>
+<p class="font-body-sm text-body-sm text-surface-container-low max-w-lg mt-1">
+            Espacios donde los viajeros y anfitriones comparten la historia viva de Casamance bajo cielos sin contaminación lumínica.
+          </p>
+</div>
+</div>
+</div>
+<!-- TESTIMONIOS CON BADGE VERIFICADOR -->
+<div class="w-full py-space-xl" id="bolongs"><div class="flex items-center justify-center gap-4 text-outline-variant py-4 mb-space-lg"><span class="h-[1px] flex-1 bg-outline-variant/60"></span><span class="inline-block w-2.5 h-2.5 rotate-45 border border-tertiary bg-surface-container"></span><span class="h-[1px] flex-1 bg-outline-variant/60"></span></div><div class="flex flex-col items-start mb-space-lg"><div class="flex items-center gap-space-xs mb-space-sm bg-surface-container-high/60 px-3 py-1.5 rounded-lg border border-outline-variant/40"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span><span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary">Expediciones Fluviales &amp; Mangle Respetuoso</span></div><h2 class="font-headline-lg text-headline-lg text-on-surface max-w-3xl leading-tight mb-space-xs">Travesías en piragua por los bolongs: el latido secreto del río y el manglar</h2></div></div><div class="bg-surface-container p-space-md lg:p-space-xl rounded-xl border border-outline-variant/70">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between pb-space-md border-b border-outline-variant/50 gap-2 mb-space-lg">
+<div>
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary">Voces de Nuestra Estancia</span>
+<h3 class="font-headline-md text-headline-md text-on-surface">Ecos desde el Santuario</h3>
+</div>
+<div class="inline-flex items-center gap-1.5 bg-surface-container-low px-3 py-1.5 rounded-lg border border-outline-variant/50 text-body-sm font-body-sm text-on-surface-variant">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+<span>Huéspedes verificados mediante reserva directa</span>
+<span class="text-tertiary text-xs" title="Todos los testimonios corresponden a huéspedes que reservaron directamente a través de nuestra web oficial.">[?]</span>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Testimonio 1 -->
+<div class="flex flex-col justify-between bg-surface-container-lowest p-space-md rounded-lg border border-outline-variant/40 shadow-sm">
+<div>
+<div class="flex items-center text-primary mb-3">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic mb-4">
+              “Una semana en Raíz y Alas te devuelve la perspectiva. El respeto por el entorno y la calidez del equipo local hacen que te sientas en casa desde el primer minuto.”
+            </p>
+</div>
+<div class="pt-3 border-t border-outline-variant/30">
+<span class="font-label-md text-label-md text-on-surface font-semibold block">Elena &amp; Marcos</span>
+<span class="font-body-sm text-body-sm text-tertiary">Madrid • Estancia en Suite Ceiba</span>
+</div>
+</div>
+<!-- Testimonio 2 -->
+<div class="flex flex-col justify-between bg-surface-container-lowest p-space-md rounded-lg border border-outline-variant/40 shadow-sm">
+<div>
+<div class="flex items-center text-primary mb-3">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic mb-4">
+              “Casamance tiene una energía especial, pero este lodge la eleva a una experiencia de serenidad absoluta. La comida, la piscina en el jardín y los paseos en piragua son inolvidables.”
+            </p>
+</div>
+<div class="pt-3 border-t border-outline-variant/30">
+<span class="font-label-md text-label-md text-on-surface font-semibold block">Jean-Paul D.</span>
+<span class="font-body-sm text-body-sm text-tertiary">Ginebra, Suiza • Retiro de 10 días</span>
+</div>
+</div>
+<!-- Testimonio 3 -->
+<div class="flex flex-col justify-between bg-surface-container-lowest p-space-md rounded-lg border border-outline-variant/40 shadow-sm">
+<div>
+<div class="flex items-center text-primary mb-3">
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+<span class="material-symbols-outlined text-[18px]">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface leading-relaxed italic mb-4">
+              “La combinación perfecta entre aventura real en África occidental y el confort refinado de un hotel boutique consciente. Cero plástico, todo corazón.”
+            </p>
+</div>
+<div class="pt-3 border-t border-outline-variant/30">
+<span class="font-label-md text-label-md text-on-surface font-semibold block">Sarah L.</span>
+<span class="font-body-sm text-body-sm text-tertiary">Londres • Estancia en Suite Baobab</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ARTISAN DIVIDER WITH DIAMOND -->
+<div class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-4">
+<div class="flex items-center justify-center gap-4 text-outline-variant">
+<span class="h-[1px] flex-1 bg-outline-variant/60"></span>
+<span class="inline-block w-2.5 h-2.5 rotate-45 border border-tertiary bg-surface-container"></span>
+<span class="h-[1px] flex-1 bg-outline-variant/60"></span>
+</div>
+</div>
+<!-- SECCIÓN DE CONVERSIÓN / FORMULARIO DE RESERVA DIRECTA -->
+<section class="w-full max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl" id="reserva">
+<div class="bg-surface-container-low rounded-2xl border border-outline-variant/70 p-space-md md:p-space-xl shadow-[0_24px_50px_-15px_rgba(56,33,18,0.1)]">
+<div class="max-w-3xl mx-auto text-center mb-space-lg">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary block mb-2">Reserva Directa Exclusiva</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mb-space-xs">Tu viaje a Casamance comienza aquí</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Garantía de mejor tarifa, bienvenida personalizada en los aeropuertos de Banjul (Gambia) o Cap Skirring / Ziguinchor y condiciones flexibles de reserva.
+        </p>
+</div>
+<!-- Form Container -->
+<form class="max-w-4xl mx-auto flex flex-col gap-space-md" id="booking-form" onsubmit="event.preventDefault(); document.getElementById('reserva-confirmacion').classList.remove('hidden'); this.reset();">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<!-- Nombre y Apellidos -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="nombre">Nombre y Apellidos *</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/80 rounded-lg px-4 py-3 text-on-surface font-body-md text-body-md placeholder:text-tertiary/60 focus:outline-none focus:border-on-surface transition-colors" id="nombre" name="nombre" placeholder="Ej. Clara Gómez Mendonça" required="" type="text">
+</div>
+<!-- Correo Electrónico -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="email">Correo Electrónico *</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/80 rounded-lg px-4 py-3 text-on-surface font-body-md text-body-md placeholder:text-tertiary/60 focus:outline-none focus:border-on-surface transition-colors" id="email" name="email" placeholder="nombre@ejemplo.com" required="" type="email">
+</div>
+<!-- Teléfono / WhatsApp -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="telefono">Teléfono / WhatsApp *</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/80 rounded-lg px-4 py-3 text-on-surface font-body-md text-body-md placeholder:text-tertiary/60 focus:outline-none focus:border-on-surface transition-colors" id="telefono" name="telefono" placeholder="+34 600 000 000" required="" type="tel">
+</div>
+<!-- Número de Huéspedes -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="huespedes">Número de Huéspedes *</label>
+<select class="w-full bg-surface-container-lowest border border-outline-variant/80 rounded-lg px-4 py-3 text-on-surface font-body-md text-body-md focus:outline-none focus:border-on-surface transition-colors" id="huespedes" name="huespedes" required="">
+<option value="1">1 persona (Viajero solitario)</option>
+<option selected="" value="2">2 personas (Pareja / Doble)</option>
+<option value="3">3 personas (Suite Familiar)</option>
+<option value="4">4 personas (Suite Doble conectada)</option>
+<option value="grupo">Grupo privado (Reserva completa del lodge)</option>
+</select>
+</div>
+<!-- Fecha de Llegada -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="llegada">Fecha de Llegada Estimada *</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/80 rounded-lg px-4 py-3 text-on-surface font-body-md text-body-md focus:outline-none focus:border-on-surface transition-colors" id="llegada" name="llegada" required="" type="date">
+</div>
+<!-- Fecha de Salida -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="salida">Fecha de Salida Estimada *</label>
+<input class="w-full bg-surface-container-lowest border border-outline-variant/80 rounded-lg px-4 py-3 text-on-surface font-body-md text-body-md focus:outline-none focus:border-on-surface transition-colors" id="salida" name="salida" required="" type="date">
+</div>
+</div>
+<!-- Interés especial -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="interes">Interés Principal de tu Estancia</label>
+<select class="w-full bg-surface-container-lowest border border-outline-variant/80 rounded-lg px-4 py-3 text-on-surface font-body-md text-body-md focus:outline-none focus:border-on-surface transition-colors" id="interes" name="interes">
+<option value="relax">Relax total, piscina natural y playas vírgenes</option>
+<option value="suites">Alojamiento en Suite Bioclimática (Tarifa Directa)</option>
+<option value="inmersion">Inmersión cultural profunda diola (música, botánica y piragua)</option>
+<option value="gambia">Experiencia combinada Senegal + Excursión a Gambia</option>
+<option value="retiro">Retiro de yoga, bienestar o escritura creativa</option>
+<option value="bolongs">Excursión en piragua tradicional por los bolongs del río</option></select>
+</div>
+<!-- Notas adicionales -->
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="notas">Detalles adicionales o requerimientos dietéticos (Opcional)</label>
+<textarea class="w-full bg-surface-container-lowest border border-outline-variant/80 rounded-lg px-4 py-3 text-on-surface font-body-md text-body-md placeholder:text-tertiary/60 focus:outline-none focus:border-on-surface transition-colors" id="notas" name="notas" placeholder="Coméntanos tus preferencias de suite (Ceiba, Palafito, Gran Suite...), traslados desde Banjul o Cap Skirring, alergias..." rows="3"></textarea>
+</div>
+<!-- Consentimiento RGPD -->
+<div class="flex items-start gap-3 pt-2">
+<input class="mt-1 h-4 w-4 rounded border-outline-variant text-primary focus:ring-primary" id="rgpd" name="rgpd" required="" type="checkbox">
+<label class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed" for="rgpd">
+            He leído y acepto la <a class="text-primary underline underline-offset-2" data-path="politica-de-privacidad" href="#">Política de Privacidad</a> y el tratamiento responsable de mis datos conforme al RGPD para gestionar mi reserva directa en Raíz y Alas Lodge.
+          </label>
+</div>
+<!-- CTA Principal -->
+<div class="pt-space-sm flex flex-col items-center">
+<button class="w-full sm:w-auto min-w-[320px] bg-primary-container text-surface-container-lowest font-label-md text-label-md uppercase tracking-[0.12em] px-10 py-4 rounded-lg hover:bg-primary transition-all duration-300 shadow-[0_16px_32px_-10px_rgba(153,69,37,0.35)] flex items-center justify-center gap-2" type="submit">
+<span>Solicitar Disponibilidad y Reserva Directa</span>
+<span class="material-symbols-outlined text-[20px]">east</span>
+</button>
+</div>
+</form>
+<!-- Mensaje de Confirmación Interactivo (Oculto inicialmente) -->
+<div class="hidden mt-space-md p-space-md bg-secondary-container text-on-secondary-container rounded-xl border border-secondary/30 text-center max-w-2xl mx-auto" id="reserva-confirmacion">
+<span class="material-symbols-outlined text-[32px] text-secondary block mb-1">mark_email_read</span>
+<h4 class="font-headline-sm text-headline-sm font-semibold mb-1">¡Solicitud Recibida con Éxito!</h4>
+<p class="font-body-md text-body-md">
+          Gracias por contactar directamente con Raíz y Alas Lodge. Nuestro equipo en Abéné revisará la disponibilidad de suites y te responderá con una propuesta personalizada en menos de 12 horas.
+        </p>
+</div>
+<!-- Reassurance Badges -->
+<div class="mt-space-lg pt-space-md border-t border-outline-variant/40 grid grid-cols-1 md:grid-cols-3 gap-space-sm text-center">
+<div class="flex items-center justify-center gap-2 text-tertiary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">thumb_up</span>
+<span class="font-medium text-on-surface">Sin comisiones ni intermediarios</span>
+</div>
+<div class="flex items-center justify-center gap-2 text-tertiary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">directions_car</span>
+<span class="font-medium text-on-surface">Asistencia de traslados y visados</span>
+</div>
+<div class="flex items-center justify-center gap-2 text-tertiary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary text-[20px]">schedule</span>
+<span class="font-medium text-on-surface">Respuesta garantizada &lt; 12 horas</span>
+</div>
+</div>
+</div>
+</section>
+</div></main>
+<!-- MODAL INTERACTIVO: DETALLE DE LAS 8 SUITES & TARIFAS -->
+<div aria-labelledby="modal-suites-title" aria-modal="true" class="fixed inset-0 z-[100] hidden overflow-y-auto" id="suites-modal" role="dialog">
+<!-- Backdrop oscuro espresso semi-transparente -->
+<div class="fixed inset-0 bg-[#2b1608]/75 backdrop-blur-sm transition-opacity duration-300" id="suites-backdrop"></div>
+<div class="relative min-h-screen flex items-center justify-center p-3 sm:p-6 lg:p-10">
+<!-- Contenedor Modal Editorial -->
+<div class="relative w-full max-w-5xl bg-[#fff8f5] border border-outline-variant/80 rounded-2xl shadow-[0_32px_64px_-16px_rgba(43,22,8,0.45)] overflow-hidden text-on-surface my-6">
+<!-- Barra Superior Editorial y Botón Cerrar -->
+<div class="sticky top-0 z-30 bg-[#fff8f5]/95 backdrop-blur-md px-6 sm:px-10 pt-7 pb-5 border-b border-outline-variant/40 flex items-start justify-between gap-4">
+<div class="flex-1">
+<div class="flex items-center gap-2 mb-1.5">
+<span class="inline-block w-2 h-2 rotate-45 bg-primary"></span>
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.25em] text-tertiary">Raíz y Alas Sanctuary • Catálogo 2025</span>
+</div>
+<h2 class="font-display text-[28px] sm:text-headline-lg leading-tight text-on-surface" id="modal-suites-title">
+      Nuestras 8 Suites Bioclimáticas
+    </h2>
+<p class="font-headline-sm text-[16px] sm:text-[18px] text-tertiary italic mt-1 max-w-3xl leading-snug">
+      “Refugios individuales entre ceibas, manglares y la brisa del Atlántico. Máximo 16 huéspedes en todo el santuario.”
+    </p>
+</div>
+<button aria-label="Cerrar modal" class="w-10 h-10 rounded-full bg-surface-container-high/80 hover:bg-surface-container-highest flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors shrink-0 border border-outline-variant/50" id="close-modal-btn" type="button">
+<span class="material-symbols-outlined text-[22px]">close</span>
+</button>
+</div>
+<!-- Contenido Scrolleable Interior -->
+<div class="p-6 sm:p-10 max-h-[calc(85vh-140px)] overflow-y-auto space-y-8 selection:bg-surface-container-highest"><div class="bg-surface-container-low rounded-2xl border border-outline-variant/70 overflow-hidden shadow-sm" id="suite-modal-carousel-container"><div class="p-4 sm:p-5 border-b border-outline-variant/40 flex flex-col sm:flex-row sm:items-center justify-between gap-3"><div class="flex items-center gap-2.5"><span class="w-2 h-2 rotate-45 bg-primary"></span><span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary">Galería de Estancias y Detalles Artesanales</span></div><div class="flex items-center gap-3 self-end sm:self-auto"><span class="font-eyebrow text-eyebrow uppercase tracking-widest text-primary font-semibold" id="carousel-counter">1 / 4</span><div class="flex items-center gap-1.5"><button aria-label="Foto anterior" class="carousel-prev-btn w-8 h-8 rounded-full bg-surface-container-lowest border border-outline-variant/60 flex items-center justify-center text-on-surface hover:text-primary hover:border-primary transition-all duration-200 cursor-pointer" type="button"><span class="material-symbols-outlined text-[18px]">chevron_left</span></button><button aria-label="Foto siguiente" class="carousel-next-btn w-8 h-8 rounded-full bg-surface-container-lowest border border-outline-variant/60 flex items-center justify-center text-on-surface hover:text-primary hover:border-primary transition-all duration-200 cursor-pointer" type="button"><span class="material-symbols-outlined text-[18px]">chevron_right</span></button></div></div></div><div class="relative aspect-[16/9] sm:aspect-[21/9] w-full overflow-hidden bg-surface-container-highest"><div class="carousel-slides-wrapper relative w-full h-full"><div class="carousel-slide absolute inset-0 transition-opacity duration-500 opacity-100 z-10" data-index="0"><img class="w-full h-full object-cover" data-alt="Suite Ceiba Mayor interior con cama king size, dosel de lino blanco y paredes de adobe en Casamance" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA1AlDYR0cyKJJ9mUC6mhabktPfga8-EBiERF_3EmOtKX_jX9JQCgP6o-AiHpQqHiCuWgXXwXFbwsHTVR7QJDP5z-5uA9hS1lhcPKBgTtjpMfOdHRgRs-_AXnyY_H0KX8XS60hVhnsliE8jGfNFG2rTg8RxmdCwfa9aaHlNRXNfwbhBG5UhDH6_8G3yLLBlelLdGExLIndkWu0UZ7wUoogEynP9fcOVUOsO1j721Ao"><div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-4 sm:p-6 text-surface-container-lowest"><span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary-fixed mb-1">Suite Ceiba Mayor</span><p class="font-headline-sm text-headline-sm leading-snug">Dormitorio bioclimático con dosel de algodón orgánico y barro tradicional</p></div></div><div class="carousel-slide absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none z-0" data-index="1"><img class="w-full h-full object-cover" data-alt="Terraza palafito sobre manglares con hamaca y vista panorámica del delta" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqbAKkoF7fKanwNGLly-kx1UM65ZoSzZzpyQUy718M3bd9aVp9oY8O7NvH_93O6l-YWGWQkG31b2nrONpRnOjJtOkcbKc1ASp4goxazKyxSiLrzL_iyIXik_Bbm4_XUJOSBg4gPGuYEr66o73nNXbjhNPHgOo7LvyBUMs6cu-AtHPbui7WKqGGaEIUbsKyyeqSstPWSKJQadt4BA6tLubgYBDg4W8mOFdGOA_FUu8"><div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-4 sm:p-6 text-surface-container-lowest"><span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary-fixed mb-1">Suites Palafito &amp; Bolong</span><p class="font-headline-sm text-headline-sm leading-snug">Porche suspendido de madera noble frente a las garzas del manglar</p></div></div><div class="carousel-slide absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none z-0" data-index="2"><img class="w-full h-full object-cover" data-alt="Piscina natural de roca y senderos hacia la arena virgen de Abéné" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCCPE7gcT7K2QolGEEB4d03q8WNaQMb8zpxVzhazNvpqGkh5kB8INBaIKkMiEh9hEAag7pPGpml8MIbOxqWnajTyeRi1rgqikFaKw6LsTXs4E5K6XljJQwOAjiIaXp2pgXihESqeycfK6Yl2etj0jH8dKnfNlD5jDaO5-k78gepJKZXg0zntNkII-FNV0zCdY3kwCCPugk6xeOTkjDQ4V2idCPxKWpswj_JuJzBETA"><div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-4 sm:p-6 text-surface-container-lowest"><span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary-fixed mb-1">Zonas Comunes &amp; Entorno</span><p class="font-headline-sm text-headline-sm leading-snug">Piscina de roca volcánica integrada en la vegetación tropical virgen</p></div></div><div class="carousel-slide absolute inset-0 transition-opacity duration-500 opacity-0 pointer-events-none z-0" data-index="3"><img class="w-full h-full object-cover" data-alt="Cena íntima al atardecer bajo techos de paja con iluminación cálida artesana" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDV4qIDzeC1vvCc6QYLiiLGcKtM-oTDfEjyCkPPkzYPy3mvUX5BCt_TKoFzDxAZnJWYjzUlbJqKhlZlm85SfKriPJ70oXFwPo7yoNO8Lv3Tbm2F-lXMnODn-yJoMGOLhPnKk8KZPJto8yDqcU1_1qZRqBpEvT-UZzB_UbV72R-RXClcDHTb6hkD2gwun-fsUKO8Gb3pHkfhSWPOwwzZJuyULjg3T7cHVb6x2tfV6Xs"><div class="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-transparent to-transparent flex flex-col justify-end p-4 sm:p-6 text-surface-container-lowest"><span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary-fixed mb-1">Gran Suite Djembe &amp; Océano</span><p class="font-headline-sm text-headline-sm leading-snug">Comedor exterior privado y veladas bajo el cielo estrellado de Senegal</p></div></div></div><div class="absolute bottom-3 right-4 z-20 flex items-center gap-2 bg-on-surface/60 backdrop-blur-sm px-3 py-1.5 rounded-full" id="carousel-dots"><button aria-label="Ver foto 1" class="carousel-dot w-2.5 h-2.5 rounded-full bg-surface-container-lowest transition-all" data-index="0" type="button"></button><button aria-label="Ver foto 2" class="carousel-dot w-2 h-2 rounded-full bg-surface-container-lowest/50 hover:bg-surface-container-lowest transition-all" data-index="1" type="button"></button><button aria-label="Ver foto 3" class="carousel-dot w-2 h-2 rounded-full bg-surface-container-lowest/50 hover:bg-surface-container-lowest transition-all" data-index="2" type="button"></button><button aria-label="Ver foto 4" class="carousel-dot w-2 h-2 rounded-full bg-surface-container-lowest/50 hover:bg-surface-container-lowest transition-all" data-index="3" type="button"></button></div></div></div>
+<!-- Desglose de Qué Incluye Cada Tarifa (Banner Destacado) -->
+<div class="bg-surface-container-low/90 rounded-xl p-5 sm:p-6 border border-secondary/25">
+<div class="flex items-center gap-2 mb-3">
+<span class="material-symbols-outlined text-secondary text-[22px]">verified_user</span>
+<h3 class="font-label-md text-label-md uppercase tracking-[0.18em] text-secondary font-semibold">Toda estancia en Raíz y Alas incluye sin coste adicional</h3>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 text-body-sm font-body-sm text-on-surface-variant">
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5 shrink-0">bakery_dining</span>
+<span><strong class="font-medium text-on-surface">Desayuno orgánico Km 0</strong> completo diario con jugos de baobab, bissap y frutas locales.</span>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5 shrink-0">pool</span>
+<span><strong class="font-medium text-on-surface">Piscina de piedra natural</strong> y acceso directo por sendero virgen al océano Atlántico.</span>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5 shrink-0">eco</span>
+<span><strong class="font-medium text-on-surface">Confort bioclimático</strong>: ventilación cruzada, mosquitera de algodón orgánico y jabones artesanos de karité y moringa.</span>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5 shrink-0">airport_shuttle</span>
+<span><strong class="font-medium text-on-surface">Traslado en piragua o vehículo</strong> desde Banjul o Cap Skirring bonificado para estancias ≥ 4 noches.</span>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5 shrink-0">volunteer_activism</span>
+<span><strong class="font-medium text-on-surface">Compromiso comunitario 10%</strong>: cada reserva apoya la educación local y reforestación de manglares en Abéné.</span>
+</div>
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-primary text-[18px] mt-0.5 shrink-0">wb_sunny</span>
+<span><strong class="font-medium text-on-surface">Energía 100% solar</strong> ininterrumpida y agua filtrada de manantial local sin plásticos de un solo uso.</span>
+</div>
+</div>
+</div>
+<!-- Selector / Tabs de Categorías -->
+<div>
+<div class="flex items-center justify-between flex-wrap gap-2 pb-3 border-b border-outline-variant/40">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary">Categorías de Suites Disponibles</span>
+<span class="font-body-sm text-body-sm text-outline">Capacidad máxima: 2 adultos por suite (16 personas total)</span>
+</div>
+<!-- Pestañas interactivas de filtro -->
+<div class="flex flex-wrap gap-2 pt-4" id="suite-tabs">
+<button class="suite-tab-btn active px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider transition-all duration-200 bg-primary-container text-surface-container-lowest shadow-sm" data-category="all" type="button">
+        Todas (8 Suites)
+      </button>
+<button class="suite-tab-btn px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider transition-all duration-200 bg-surface-container-low text-on-surface hover:bg-surface-container border border-outline-variant/50" data-category="ceiba" type="button">
+        Suites Ceiba &amp; Huerto (4) • desde 180€
+      </button>
+<button class="suite-tab-btn px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider transition-all duration-200 bg-surface-container-low text-on-surface hover:bg-surface-container border border-outline-variant/50" data-category="palafito" type="button">
+        Suites Palafito &amp; Bolong (2) • desde 230€
+      </button>
+<button class="suite-tab-btn px-4 py-2 rounded-lg font-label-md text-label-md uppercase tracking-wider transition-all duration-200 bg-surface-container-low text-on-surface hover:bg-surface-container border border-outline-variant/50" data-category="gran-suite" type="button">
+        Gran Suite Océano (2) • desde 290€
+      </button>
+</div>
+</div>
+<!-- Resumen de las 3 Categorías Principales con sus atributos distintivos -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-4 text-left">
+<!-- Category Card 1 -->
+<div class="p-4 rounded-xl bg-surface-container/60 border border-outline-variant/60">
+<div class="flex items-center justify-between mb-1">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary">Planta Baja / Jardín</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">180€ <span class="text-[13px] font-normal text-tertiary">/noche</span></span>
+</div>
+<h4 class="font-headline-sm text-[20px] text-on-surface mb-1">Suites Ceiba &amp; Huerto</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        4 suites independientes en planta baja. Jardín botánico privado, porche con hamaca artesanal y ducha exterior de roca volcánica.
+      </p>
+</div>
+<!-- Category Card 2 -->
+<div class="p-4 rounded-xl bg-surface-container/60 border border-outline-variant/60">
+<div class="flex items-center justify-between mb-1">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary">Elevadas sobre Manglar</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">230€ <span class="text-[13px] font-normal text-tertiary">/noche</span></span>
+</div>
+<h4 class="font-headline-sm text-[20px] text-on-surface mb-1">Suites Palafito &amp; Bolong</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        2 suites elevadas en madera noble sobre el manglar. Terraza panorámica de 360°, telescopio para aves y acceso exclusivo al muelle.
+      </p>
+</div>
+<!-- Category Card 3 -->
+<div class="p-4 rounded-xl bg-surface-container/60 border border-outline-variant/60">
+<div class="flex items-center justify-between mb-1">
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-primary">Premium 75m²</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">290€ <span class="text-[13px] font-normal text-tertiary">/noche</span></span>
+</div>
+<h4 class="font-headline-sm text-[20px] text-on-surface mb-1">Gran Suite Djembe &amp; Océano</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+        2 suites de máxima amplitud. Pérgola sombreada, solárium privado con vista al romper de olas y servicio ceremonial de té diola.
+      </p>
+</div>
+</div>
+<!-- LISTADO DETALLADO DE LAS 8 SUITES ESPECÍFICAS -->
+<div>
+<div class="flex items-center justify-between mb-4">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Las 8 Estancias Exclusivas del Lodge</h3>
+<span class="font-eyebrow text-eyebrow uppercase tracking-[0.15em] text-tertiary">Disponibilidad en Tiempo Real</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="suites-grid">
+<!-- Suite 1: Ceiba Mayor -->
+<div class="suite-card rounded-xl p-5 bg-surface-container-lowest border border-outline-variant/60 flex flex-col justify-between hover:border-primary/60 transition-colors" data-category="ceiba">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1.5">
+<span class="px-2.5 py-0.5 rounded text-[11px] font-eyebrow uppercase tracking-widest bg-surface-container text-primary font-semibold">Suite 01 • Ceiba &amp; Huerto</span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary leading-none">180€</span>
+<span class="block text-[11px] text-tertiary">Temp. Serena: 160€</span>
+</div>
+</div>
+<h4 class="font-headline-sm text-[22px] text-on-surface font-medium mb-1">Suite Ceiba Mayor</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3 leading-relaxed">
+            Situada junto a la ceiba centenaria sagrada. Salón exterior con suelo de barro cocido, porche y baño abierto bajo las ramas.
+          </p>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">group</span> 2 personas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">straighten</span> 52 m² + jardín</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">king_bed</span> King-size con dosel</span>
+</div>
+</div>
+<div class="pt-3 mt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-secondary text-[12px] font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">shower</span> Ducha exterior de piedra</span>
+<button class="select-suite-btn text-primary font-label-md text-label-md uppercase tracking-wider hover:underline flex items-center gap-1 cursor-pointer" data-suite-name="Suite Ceiba Mayor" type="button">
+<span>Elegir</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Suite 2: Karoninka -->
+<div class="suite-card rounded-xl p-5 bg-surface-container-lowest border border-outline-variant/60 flex flex-col justify-between hover:border-primary/60 transition-colors" data-category="ceiba">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1.5">
+<span class="px-2.5 py-0.5 rounded text-[11px] font-eyebrow uppercase tracking-widest bg-surface-container text-primary font-semibold">Suite 02 • Ceiba &amp; Huerto</span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary leading-none">180€</span>
+<span class="block text-[11px] text-tertiary">Temp. Serena: 160€</span>
+</div>
+</div>
+<h4 class="font-headline-sm text-[22px] text-on-surface font-medium mb-1">Suite Karoninka</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3 leading-relaxed">
+            Homenaje al pueblo insular de Casamance. Texturas de bambú tejido, hamaca trenzada de algodón y vistas a las orquídeas salvajes.
+          </p>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">group</span> 2 personas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">straighten</span> 50 m² + patio</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">king_bed</span> King-size con dosel</span>
+</div>
+</div>
+<div class="pt-3 mt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-secondary text-[12px] font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">spa</span> Terraza sombreada</span>
+<button class="select-suite-btn text-primary font-label-md text-label-md uppercase tracking-wider hover:underline flex items-center gap-1 cursor-pointer" data-suite-name="Suite Karoninka" type="button">
+<span>Elegir</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Suite 3: Flor de Hibisco -->
+<div class="suite-card rounded-xl p-5 bg-surface-container-lowest border border-outline-variant/60 flex flex-col justify-between hover:border-primary/60 transition-colors" data-category="ceiba">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1.5">
+<span class="px-2.5 py-0.5 rounded text-[11px] font-eyebrow uppercase tracking-widest bg-surface-container text-primary font-semibold">Suite 03 • Ceiba &amp; Huerto</span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary leading-none">185€</span>
+<span class="block text-[11px] text-tertiary">Temp. Serena: 165€</span>
+</div>
+</div>
+<h4 class="font-headline-sm text-[22px] text-on-surface font-medium mb-1">Suite Flor de Hibisco</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3 leading-relaxed">
+            Inmersa en el vergel botánico con cultivo orgánico de flores comestibles y hierba de limón aromática para infusiones al atardecer.
+          </p>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">group</span> 2 personas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">straighten</span> 54 m² + huerto</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">king_bed</span> King-size con dosel</span>
+</div>
+</div>
+<div class="pt-3 mt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-secondary text-[12px] font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">yard</span> Acceso directo al huerto</span>
+<button class="select-suite-btn text-primary font-label-md text-label-md uppercase tracking-wider hover:underline flex items-center gap-1 cursor-pointer" data-suite-name="Suite Flor de Hibisco" type="button">
+<span>Elegir</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Suite 4: Moringa -->
+<div class="suite-card rounded-xl p-5 bg-surface-container-lowest border border-outline-variant/60 flex flex-col justify-between hover:border-primary/60 transition-colors" data-category="ceiba">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1.5">
+<span class="px-2.5 py-0.5 rounded text-[11px] font-eyebrow uppercase tracking-widest bg-surface-container text-primary font-semibold">Suite 04 • Ceiba &amp; Huerto</span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary leading-none">185€</span>
+<span class="block text-[11px] text-tertiary">Temp. Serena: 165€</span>
+</div>
+</div>
+<h4 class="font-headline-sm text-[22px] text-on-surface font-medium mb-1">Suite Moringa</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3 leading-relaxed">
+            Orientación poniente pensada para el descanso profundo. Acabados de arcilla suave y lino crudo, ducha al aire libre y silencio absoluto.
+          </p>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">group</span> 2 personas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">straighten</span> 53 m²</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">king_bed</span> King-size con dosel</span>
+</div>
+</div>
+<div class="pt-3 mt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-secondary text-[12px] font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">dark_mode</span> Aislamiento acústico total</span>
+<button class="select-suite-btn text-primary font-label-md text-label-md uppercase tracking-wider hover:underline flex items-center gap-1 cursor-pointer" data-suite-name="Suite Moringa" type="button">
+<span>Elegir</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Suite 5: Palafito de los Pelícanos -->
+<div class="suite-card rounded-xl p-5 bg-surface-container-lowest border border-outline-variant/60 flex flex-col justify-between hover:border-primary/60 transition-colors" data-category="palafito">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1.5">
+<span class="px-2.5 py-0.5 rounded text-[11px] font-eyebrow uppercase tracking-widest bg-secondary/15 text-secondary font-semibold">Suite 05 • Palafito &amp; Bolong</span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary leading-none">230€</span>
+<span class="block text-[11px] text-tertiary">Temp. Serena: 200€</span>
+</div>
+</div>
+<h4 class="font-headline-sm text-[22px] text-on-surface font-medium mb-1">Palafito de los Pelícanos</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3 leading-relaxed">
+            Elevada a 4 metros sobre el cauce de agua. Plataforma mirador privada con prismáticos ópticos y vista al vuelo diario de garzas y pelícanos.
+          </p>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">group</span> 2 personas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">straighten</span> 60 m² + mirador</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">king_bed</span> King-size con dosel</span>
+</div>
+</div>
+<div class="pt-3 mt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-secondary text-[12px] font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">visibility</span> Vistas 360° a los manglares</span>
+<button class="select-suite-btn text-primary font-label-md text-label-md uppercase tracking-wider hover:underline flex items-center gap-1 cursor-pointer" data-suite-name="Palafito de los Pelícanos" type="button">
+<span>Elegir</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Suite 6: Palafito del Bolong -->
+<div class="suite-card rounded-xl p-5 bg-surface-container-lowest border border-outline-variant/60 flex flex-col justify-between hover:border-primary/60 transition-colors" data-category="palafito">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1.5">
+<span class="px-2.5 py-0.5 rounded text-[11px] font-eyebrow uppercase tracking-widest bg-secondary/15 text-secondary font-semibold">Suite 06 • Palafito &amp; Bolong</span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary leading-none">235€</span>
+<span class="block text-[11px] text-tertiary">Temp. Serena: 205€</span>
+</div>
+</div>
+<h4 class="font-headline-sm text-[22px] text-on-surface font-medium mb-1">Palafito del Bolong</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3 leading-relaxed">
+            Situada sobre el meandro más tranquilo del estuario. Muelle propio con acceso privado directo para embarque matinal en piragua.
+          </p>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">group</span> 2 personas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">straighten</span> 62 m²</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">king_bed</span> King-size con dosel</span>
+</div>
+</div>
+<div class="pt-3 mt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-secondary text-[12px] font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">kayaking</span> Muelle de piragua propio</span>
+<button class="select-suite-btn text-primary font-label-md text-label-md uppercase tracking-wider hover:underline flex items-center gap-1 cursor-pointer" data-suite-name="Palafito del Bolong" type="button">
+<span>Elegir</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Suite 7: Gran Suite Mandinga -->
+<div class="suite-card rounded-xl p-5 bg-surface-container-lowest border border-outline-variant/60 flex flex-col justify-between hover:border-primary/60 transition-colors" data-category="gran-suite">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1.5">
+<span class="px-2.5 py-0.5 rounded text-[11px] font-eyebrow uppercase tracking-widest bg-primary-container/20 text-primary font-semibold">Suite 07 • Gran Suite</span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary leading-none">290€</span>
+<span class="block text-[11px] text-tertiary">Temp. Serena: 250€</span>
+</div>
+</div>
+<h4 class="font-headline-sm text-[22px] text-on-surface font-medium mb-1">Gran Suite Mandinga</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3 leading-relaxed">
+            Inspirada en la música y nobleza mandinga y diola. Salón con chimenea de arcilla exterior, pérgola cubierta de paja y solárium de teca.
+          </p>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">group</span> 2 personas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">straighten</span> 75 m² + pérgola</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">king_bed</span> King-size Imperial</span>
+</div>
+</div>
+<div class="pt-3 mt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-secondary text-[12px] font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">deck</span> Solárium &amp; Pérglola privada</span>
+<button class="select-suite-btn text-primary font-label-md text-label-md uppercase tracking-wider hover:underline flex items-center gap-1 cursor-pointer" data-suite-name="Gran Suite Mandinga" type="button">
+<span>Elegir</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Suite 8: Gran Suite del Océano -->
+<div class="suite-card rounded-xl p-5 bg-surface-container-lowest border border-outline-variant/60 flex flex-col justify-between hover:border-primary/60 transition-colors" data-category="gran-suite">
+<div>
+<div class="flex items-center justify-between gap-2 mb-1.5">
+<span class="px-2.5 py-0.5 rounded text-[11px] font-eyebrow uppercase tracking-widest bg-primary-container/20 text-primary font-semibold">Suite 08 • Gran Suite</span>
+<div class="text-right">
+<span class="font-headline-sm text-headline-sm font-semibold text-primary leading-none">310€</span>
+<span class="block text-[11px] text-tertiary">Temp. Serena: 270€</span>
+</div>
+</div>
+<h4 class="font-headline-sm text-[22px] text-on-surface font-medium mb-1">Gran Suite del Océano</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-3 leading-relaxed">
+            La suite insignia. Vista directa a la línea de olas del Atlántico, servicio ritual de té diario atendido por el lodge y bañera de piedra tallada.
+          </p>
+<div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-label-sm text-label-sm text-tertiary">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">group</span> 2 personas</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">straighten</span> 78 m² + veranda</span>
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[16px]">king_bed</span> King-size Imperial</span>
+</div>
+</div>
+<div class="pt-3 mt-3 border-t border-outline-variant/30 flex items-center justify-between">
+<span class="text-secondary text-[12px] font-medium flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">bathtub</span> Bañera de piedra natural</span>
+<button class="select-suite-btn text-primary font-label-md text-label-md uppercase tracking-wider hover:underline flex items-center gap-1 cursor-pointer" data-suite-name="Gran Suite del Océano" type="button">
+<span>Elegir</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Remate Artesano con Diamante Interior -->
+<div class="flex items-center justify-center gap-3 text-outline-variant py-2">
+<span class="h-[1px] flex-1 bg-outline-variant/40"></span>
+<span class="inline-block w-2 h-2 rotate-45 border border-tertiary bg-surface-container"></span>
+<span class="h-[1px] flex-1 bg-outline-variant/40"></span>
+</div>
+<!-- Pie del modal con llamada a la acción -->
+<div class="bg-surface-container p-6 rounded-xl border border-outline-variant/60 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div>
+<span class="font-headline-sm text-headline-sm text-on-surface block">¿Deseas confirmar fechas para alguna de estas suites?</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Respuesta personalizada en menos de 12 horas directamente por nuestro equipo en Casamance.</p>
+</div>
+<a class="bg-primary-container text-surface-container-lowest font-label-md text-label-md uppercase tracking-[0.12em] px-8 py-3.5 rounded-lg hover:bg-primary transition-all duration-300 shadow-md flex items-center justify-center gap-2 shrink-0 w-full sm:w-auto" href="#reserva" id="modal-reserve-btn">
+<span>Seleccionar Suite y Reservar</span>
+<span class="material-symbols-outlined text-[18px]">calendar_today</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="w-full bg-surface-container-low border-t border-outline-variant/50 pt-space-xl pb-space-lg"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin"><div class="grid grid-cols-1 md:grid-cols-12 gap-y-space-lg gap-x-gutter mb-space-xl"><div class="md:col-span-5 flex flex-col justify-between pr-0 md:pr-space-lg"><div class="space-y-space-sm"><div class="flex items-center gap-space-xs"><span class="font-headline-md text-headline-md text-on-surface">Raíz y Alas</span><span class="text-outline font-body-sm text-body-sm">•</span><span class="font-eyebrow text-eyebrow uppercase tracking-[0.2em] text-tertiary">Santuario Costero</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Hospitalidad de ritmo pausado y diseño regenerativo entre los manglares sagrados y el Atlántico de Casamance. Un homenaje a la tierra, el arte diola y la serenidad consciente.</p></div><div class="mt-space-md pt-space-md border-t border-outline-variant/30 flex items-center gap-space-sm text-tertiary font-body-sm text-body-sm"><span class="material-symbols-outlined text-secondary text-[20px]">place</span><span>Abéné, Región de Casamance, Senegal</span></div></div><div class="md:col-span-3 flex flex-col space-y-space-sm"><span class="font-eyebrow text-eyebrow uppercase text-tertiary tracking-[0.2em]">Navegación</span><ul class="space-y-space-xs font-body-md text-body-md text-on-surface-variant"><li class="flex items-center gap-2"><span class="w-1 h-1 bg-outline-variant rotate-45"></span><button class="hover:text-primary transition-colors cursor-pointer text-left" data-open-suites="" type="button">Las 8 Suites &amp; Tarifas</button></li><li class="flex items-center gap-2"><span class="w-1 h-1 bg-outline-variant rotate-45"></span><a class="hover:text-primary transition-colors" data-path="experiencias" href="#">Manglares &amp; Retiros</a></li><li class="flex items-center gap-2"><span class="w-1 h-1 bg-outline-variant rotate-45"></span><a class="hover:text-primary transition-colors" data-path="cultura" href="#">Herencia y Tradición</a></li><li class="flex items-center gap-2"><span class="w-1 h-1 bg-outline-variant rotate-45"></span><a class="hover:text-primary transition-colors" data-path="sostenibilidad-y-comunidad" href="#">Sostenibilidad y Comunidad</a></li><li class="flex items-center gap-2"><span class="w-1 h-1 bg-outline-variant rotate-45"></span><a class="hover:text-primary transition-colors" data-path="contacto" href="#">Contacto Directo</a></li></ul></div><div class="md:col-span-4 flex flex-col justify-between space-y-space-md"><div><span class="font-eyebrow text-eyebrow uppercase text-tertiary tracking-[0.2em] block mb-space-sm">Conexiones y Diario</span><p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">Relatos trimestrales sobre botánica costera, arquitectura en adobe y crónicas desde el estuario.</p><div class="flex items-center gap-space-md font-label-md text-label-md text-on-surface-variant"><a class="hover:text-primary transition-colors" href="#">Instagram</a><span class="text-outline-variant">•</span><a class="hover:text-primary transition-colors" href="#">WhatsApp Direct</a><span class="text-outline-variant">•</span><a class="hover:text-primary transition-colors" href="#">Substack Journal</a></div></div><div class="flex items-center gap-space-xs font-eyebrow text-eyebrow text-on-surface-variant bg-surface px-space-sm py-space-xs rounded-lg border border-outline-variant/60 w-fit"><span class="material-symbols-outlined text-[16px] text-tertiary">translate</span><span class="text-primary font-semibold">ES</span><span class="text-outline-variant">|</span><a class="hover:text-primary transition-colors" href="#">EN</a><span class="text-outline-variant">|</span><a class="hover:text-primary transition-colors" href="#">FR</a></div></div></div><div class="pt-space-md border-t border-outline-variant/40 flex flex-col md:flex-row items-center justify-between gap-space-sm text-center md:text-left"><div class="flex flex-wrap items-center justify-center md:justify-start gap-space-sm font-body-sm text-body-sm text-on-surface-variant"><a class="hover:text-primary transition-colors" data-path="aviso-legal" href="#">Aviso Legal</a><span class="text-outline-variant text-[10px]">•</span><a class="hover:text-primary transition-colors" data-path="politica-de-privacidad" href="#">Política de Privacidad</a><span class="text-outline-variant text-[10px]">•</span><a class="hover:text-primary transition-colors" data-path="politica-de-cookies" href="#">Política de Cookies</a><span class="text-outline-variant text-[10px]">•</span><a class="hover:text-primary transition-colors" data-path="sostenibilidad-y-comunidad" href="#">Sostenibilidad y Comunidad</a></div><div class="font-eyebrow text-eyebrow uppercase text-tertiary tracking-[0.15em]">© 2025 Raíz y Alas Lodge • Abéné, Casamance. Todos los derechos reservados.</div></div></div></footer>
+<!-- JAVASCRIPT: APERTURA, CIERRE, FILTROS Y ENLACE DE RESERVA PARA EL MODAL DE SUITES -->
+<script>
+  (function() {
+    const modal = document.getElementById('suites-modal');
+    const backdrop = document.getElementById('suites-backdrop');
+    const closeBtn = document.getElementById('close-modal-btn');
+    const openButtons = document.querySelectorAll('[data-open-suites]');
+    const tabButtons = document.querySelectorAll('.suite-tab-btn');
+    const suiteCards = document.querySelectorAll('.suite-card');
+    const selectButtons = document.querySelectorAll('.select-suite-btn');
+    const modalReserveBtn = document.getElementById('modal-reserve-btn');
+
+    function openModal() {
+      if (!modal) return;
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal() {
+      if (!modal) return;
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    openButtons.forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        e.preventDefault();
+        openModal();
+      });
+    });
+
+    if (closeBtn) closeBtn.addEventListener('click', closeModal);
+    if (backdrop) backdrop.addEventListener('click', closeModal);
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal && !modal.classList.contains('hidden')) {
+        closeModal();
+      }
+    });
+
+    // Pestañas / Filtro de Suites
+    tabButtons.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const cat = tab.getAttribute('data-category');
+        
+        tabButtons.forEach(t => {
+          t.classList.remove('bg-primary-container', 'text-surface-container-lowest', 'shadow-sm');
+          t.classList.add('bg-surface-container-low', 'text-on-surface', 'border', 'border-outline-variant/50');
+        });
+
+        tab.classList.remove('bg-surface-container-low', 'text-on-surface', 'border', 'border-outline-variant/50');
+        tab.classList.add('bg-primary-container', 'text-surface-container-lowest', 'shadow-sm');
+
+        suiteCards.forEach(card => {
+          if (cat === 'all' || card.getAttribute('data-category') === cat) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Selección de suite específica y preselección en formulario
+    function preselectSuite(suiteName) {
+      closeModal();
+      const interesSelect = document.getElementById('interes');
+      const notasTextarea = document.getElementById('notas');
+      const reservaSec = document.getElementById('reserva');
+
+      if (interesSelect) {
+        interesSelect.value = 'suites';
+      }
+
+      if (notasTextarea && suiteName) {
+        const text = `Suite deseada: ${suiteName}. `;
+        if (!notasTextarea.value.includes(suiteName)) {
+          notasTextarea.value = text + notasTextarea.value;
+        }
+      }
+
+      if (reservaSec) {
+        reservaSec.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+
+    selectButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const name = btn.getAttribute('data-suite-name') || '';
+        preselectSuite(name);
+      });
+    });
+
+    if (modalReserveBtn) {
+      modalReserveBtn.addEventListener('click', () => {
+        preselectSuite('');
+      });
+    }
+  })();
+</script>
+
+
+</body></html>
